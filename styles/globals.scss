@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0 ;
+  background-color: #EDEEF0 !important;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.content{
+  max-width: 640px;
+  width: 100%;
+  margin:0 auto;
+
+   &--full {
+   max-width: 1000px;
+ //margin-left: 220px;
+ //margin-right: 5px;
+ }
+}
+.container{
+  //width: 900px;
+  margin:0 auto;
+}
+.wrapper{
+  display: flex;
+  padding-top: 5px;
+}
+.main-layout-white{
+  background-color: #ffffff;
+  height: 92vh;
+  max-width: 80%;
+  margin: 0px auto;
+}

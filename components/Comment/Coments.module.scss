@@ -1,0 +1,40 @@
+.comment{
+  margin-top: 10px;
+  margin-bottom: 10px;
+.userInfo{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  img{
+    width:30px;
+    height:30px;
+  border-radius: 20px;
+    border:1px solid red;
+    margin-right: 5px;
+  }
+  b{
+    font-size: 13px;
+
+  }
+span{
+  font-size: 12px;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+
+}.text {
+   font-size: 14px;
+ }
+}
+.replyBtn{
+  font-size: 14px;
+  cursor:pointer;
+  border-radius: 2px;
+  padding: 5px;
+
+  &:hover{
+    color:#346eb8;
+
+    box-shadow: 0px 0px 2px 1px #346eb8 inset;
+  }
+}
